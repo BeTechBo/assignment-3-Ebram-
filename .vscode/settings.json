@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "MyClasses.C": "cpp",
+        "cstdlib": "cpp"
+    }
+}
