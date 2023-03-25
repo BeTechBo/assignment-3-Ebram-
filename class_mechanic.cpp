@@ -35,6 +35,6 @@ counter++;
 }
 }
 void mechanic :: print(){
-    cout << "Name: " << name << '\t' << "Age: " <<'\t' << "Id: "<< id << '\t' << " Number of times booked " << counter << endl; 
+    cout << "Name: " << name << '\t' << "Age: " << age <<'\t' << "Id: "<< id << '\t' << " Number of times booked " << counter << endl; 
 
 }
