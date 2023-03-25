@@ -14,5 +14,6 @@ bool operator ==(const customer &);
 bool operator > (const customer &);
 bool operator < (const customer &);
 int get_assigned_mech_id();
+void print();
 };
 #endif

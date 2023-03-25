@@ -56,4 +56,7 @@ return res;
 int customer :: get_assigned_mech_id(){
     return MechanicId;
 }
+void customer :: print(){
+    cout << "Name: " << name << '\t' << "Age: " <<'\t' << "Id: "<< id <<'\t' << "Assigned mech id " << MechanicId << endl; 
+}
 customer :: Appointment customer:: getAPP_timing() {return appointment;} 

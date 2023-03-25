@@ -13,5 +13,6 @@ bool isAvailable(Appointment);
 void setC(int);
 void setAPP(int, int);
 Appointment get_app_by_index(int);
+void print();
 };
 #endif

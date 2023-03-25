@@ -3,10 +3,10 @@
 #include <iostream>
 using namespace std;
 class person {
+    protected:
     string name;
     unsigned int id;
     int age;
-    protected:
     struct Appointment{
         int mins, hours;
     };
@@ -18,6 +18,6 @@ class person {
     string getN();
     int getA();
     int getI();
-    void print();
+    virtual void print() = 0; // abstract class because of the pure virtual function
 };
 #endif

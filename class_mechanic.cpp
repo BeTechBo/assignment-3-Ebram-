@@ -34,3 +34,7 @@ if(th > 0 && tm>0 && th<25 && tm<61){
 counter++;
 }
 }
+void mechanic :: print(){
+    cout << "Name: " << name << '\t' << "Age: " <<'\t' << "Id: "<< id << '\t' << " Number of times booked " << counter << endl; 
+
+}
